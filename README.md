@@ -1,3 +1,16 @@
+<p align="center">
+  <a href="https://github.com/NicoleBarranca/Maggie-Magee" rel="noopener">
+ <img width=200px height=200px src="src/images/maggie magee.png" alt="Project logo"></a>
+</p>
+
+<h1 align="center">Maggie Magee</h1>
+
+<div align="center">
+
+<a href="https://opensource.org/licenses/MIT">![License](https://img.shields.io/badge/License-MIT-green.svg)</a>
+
+</div>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

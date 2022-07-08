@@ -1,10 +1,15 @@
 import React from "react";
-import maggie-magee from "../../images/maggie-mageepng";
 
 function Nav() {
   return (
     <nav>
-      <img src="src/images/maggie-magee.png" alt="maggie magee logo"></img>
+      <h1>MaggieMaggee</h1>
+      <ul>
+        <li>About</li>
+        <li>Gallery</li>
+        <li>Blog</li>
+        <li>Contact</li>
+      </ul>
     </nav>
   );
 }

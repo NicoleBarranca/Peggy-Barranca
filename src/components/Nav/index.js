@@ -1,17 +1,20 @@
 import React from "react";
-import maggie from "../../img/maggie.png";
+// import maggie from "../../img/maggie.png";
 
 function Nav() {
   return (
     <nav>
-      <h1>MaggieMaggee</h1>
-      <img src={maggie} alt={"logo"} />
-      <ul>
-        <li>About</li>
-        <li>Gallery</li>
-        <li>Blog</li>
-        <li>Contact</li>
-      </ul>
+      <div className="menuBrand">
+        {/* <img src={maggie} alt={"logo"} id="logo" /> */}
+        <h1 id="brand">Maggie Magee</h1>
+      </div>
+
+      <div className="menuItems">
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </div>
     </nav>
   );
 }

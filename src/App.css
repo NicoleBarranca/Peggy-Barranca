@@ -7,3 +7,49 @@ body {
   padding: 0;
   margin: 0;
 }
+
+#brand {
+  font-size: 40px;
+  font-weight: 500;
+}
+nav {
+  background-color: #829cbc;
+  color: white;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .menuBrand {
+  display: flex;
+  flex-direction: column;
+} */
+
+.menuItems a {
+  text-decoration: none;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+}
+
+.menuItems a:hover {
+  color: #376996;
+}
+
+#logo {
+  width: 60px;
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+  }
+  #brand {
+    font-size: 40px;
+    font-weight: 300;
+  }
+}

@@ -161,6 +161,10 @@ FOOTER */
   display: flex;
   justify-content: space-around;
 }
+
+.fMenuItems {
+  list-style: none;
+}
 @media screen and (max-width: 480px) {
   /* nav */
   nav {

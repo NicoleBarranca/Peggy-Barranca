@@ -3,7 +3,7 @@ import React from "react";
 
 function Nav() {
   return (
-    <nav>
+    <nav id="fixedNav">
       <div className="menuBrand">
         {/* <img src={maggie} alt={"logo"} id="logo" /> */}
         <h1 id="brand">Maggie Magee</h1>

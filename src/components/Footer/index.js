@@ -20,11 +20,10 @@ function Footer() {
         </ul>
       </div>
       <div className="fMenuItems">
-        <h2>Follow on Social Media</h2>
+        <h2>Follow Maggie</h2>
         <ul>
-          <li>IG here</li>
-          <li>LinkedIn here</li>
-          <li>Facebook here</li>
+          <img src="" alt="Instagram Logo" />
+          <img src="" alt="Facebook Logo" />
         </ul>
       </div>
     </div>

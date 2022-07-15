@@ -160,6 +160,12 @@ FOOTER */
   padding-right: 100px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+
+.fMenuTitle {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .fMenuItems {

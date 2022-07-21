@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 // import maggie from "../../img/maggie.png";
 
 function Nav() {
@@ -11,11 +11,10 @@ function Nav() {
       </div>
 
       <div className="menuItems">
-        <Link to="/about">About</Link>
-        {/* <a href="#about">About</a>
+        <a href="#about">About</a>
         <a href="#gallery">Gallery</a>
         <a href="#blog">Blog</a>
-        <a href="#contact">Contact</a> */}
+        <a href="#contact">Contact</a>
       </div>
     </nav>
   );

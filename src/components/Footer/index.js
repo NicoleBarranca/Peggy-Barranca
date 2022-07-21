@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import React from "react";
 import IG from "../../img/IG.png";
 import FB from "../../img/FB.png";
@@ -9,9 +8,8 @@ function Footer() {
       <div>
         <h2 className="fMenuTitle">Learn More</h2>
         <ul className="fMenuItems">
-          <Link to="/about" className="liStyle">
-            <li>About</li>
-          </Link>
+          <li>About</li>
+
           <li>Gallery</li>
           <li>Blog</li>
         </ul>

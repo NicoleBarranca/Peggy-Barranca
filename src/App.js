@@ -1,4 +1,4 @@
-// import { Link, Outlet } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import Homepage from "./components/Homepage";
 import FB from "../src/img/FB.png";
 import IG from "../src/img/IG.png";
@@ -10,19 +10,20 @@ function App() {
       {/* NAVBAR */}
       <nav>
         <div className="menuBrand">
-          {/* <img src={maggie} alt={"logo"} id="logo" /> */}
-          <h1 id="brand">Maggie Magee</h1>
+          <Link to="/" id="brand">
+            Maggie Magee
+          </Link>
         </div>
 
         <div className="menuItems">
-          <a href="#about">About</a>
-          <a href="#gallery">Gallery</a>
+          <Link to="/about">About</Link>
+          {/* <a href="#gallery">Gallery</a>
           <a href="#blog">Blog</a>
-          <a href="#contact">Contact</a>
+          <a href="#contact">Contact</a> */}
         </div>
       </nav>
+      <Outlet />
 
-      <Homepage />
       {/* FOOTER */}
       <div className="footer">
         <div>

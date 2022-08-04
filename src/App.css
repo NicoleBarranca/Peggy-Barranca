@@ -171,6 +171,11 @@ FOOTER */
 .fMenuItems {
   list-style: none;
 }
+
+.about {
+  padding-top: 100px;
+}
+
 @media screen and (max-width: 480px) {
   /* nav */
   nav {

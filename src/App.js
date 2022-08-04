@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import Homepage from "./components/Homepage";
+// import Homepage from "./components/Homepage";
 import FB from "../src/img/FB.png";
 import IG from "../src/img/IG.png";
 import "./App.css";
@@ -17,9 +17,10 @@ function App() {
 
         <div className="menuItems">
           <Link to="/about">About</Link>
-          {/* <a href="#gallery">Gallery</a>
-          <a href="#blog">Blog</a>
-          <a href="#contact">Contact</a> */}
+          <Link to="/gallery">Gallery</Link>
+          <Link to="/blog">Blog</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/">Home</Link>
         </div>
       </nav>
       <Outlet />
@@ -29,10 +30,9 @@ function App() {
         <div>
           <h2 className="fMenuTitle">Learn More</h2>
           <ul className="fMenuItems">
-            <li>About</li>
-
-            <li>Gallery</li>
-            <li>Blog</li>
+            <Link to="/about">About</Link>
+            <Link to="/gallery">Gallery</Link>
+            <Link to="/blog">Blog</Link>
           </ul>
         </div>
         <div>

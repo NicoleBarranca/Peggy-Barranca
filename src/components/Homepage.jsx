@@ -1,6 +1,5 @@
-import React from "react";
-import placeholder from "../../img/placeholder.jpg";
-import maggie from "../../img/maggie.png";
+import placeholder from "../img/placeholder.jpg";
+import maggie from "../img/maggie.png";
 
 function Homepage() {
   return (

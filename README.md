@@ -1,9 +1,9 @@
 <p align="center">
   <a href="https://github.com/NicoleBarranca/Maggie-Magee" rel="noopener">
- <img width=200px height=200px src="src/images/maggie magee.png" alt="Project logo"></a>
+ <img width=200px height=200px color="blue" src="src/img/PB.png" alt="Project logo"></a>
 </p>
 
-<h1 align="center">Maggie Magee</h1>
+<h1 align="center">Peggy Barranca</h1>
 
 <div align="center">
 

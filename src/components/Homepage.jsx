@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Hero from "../img/Hero.jpeg";
-import maggie from "../img/maggie.png";
+import Logo from "../img/Logo.png";
 
 function Homepage() {
   return (
@@ -14,6 +14,7 @@ function Homepage() {
           </Link>
         </div>
       </div>
+
       {/* QUOTE */}
       <div className="quote">
         “I am always doing what I cannot do yet, in order to learn how to do
@@ -34,11 +35,11 @@ function Homepage() {
           </Link>
         </div>
 
-        <img src={maggie} alt={"logo"} id="logo" style={{ width: 200 }} />
+        <img src={Logo} alt={"logo"} id="logo" style={{ width: 200 }} />
       </div>
       {/* BLOG PREV */}
       <div className="blogPrev">
-        <img src={maggie} alt={"logo"} id="logo" style={{ width: 200 }} />
+        <img src={Logo} alt={"logo"} id="logo" style={{ width: 200 }} />
         <div>
           {" "}
           <p>

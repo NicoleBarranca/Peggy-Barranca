@@ -9,11 +9,28 @@ body {
 }
 
 #brand {
-  font-size: 40px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.brandGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+
+#brand:hover {
+  color: #7fc8f8;
 }
 nav {
-  background-color: #829cbc;
+  background-color: #2541b2;
   color: white;
   height: 80px;
   padding: 0 20px 0;
@@ -36,12 +53,12 @@ nav {
 
   padding-right: 30px;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 300;
   color: white;
 }
 
 .menuItems a:hover {
-  color: #376996;
+  color: #7fc8f8;
 }
 
 #logo {
@@ -121,12 +138,14 @@ nav {
 
 /* QUOTE SECTION */
 .quote {
-  font-size: 30px;
-  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: 600;
   padding: 100px;
   line-height: 1.3;
-  background-color: #1d3461;
-  color: white;
+  background-color: #f5c316;
+  color: #1d3461;
 }
 
 .quote span {
@@ -167,23 +186,35 @@ nav {
 /* FOOTER */
 
 .footer {
-  background-color: #829cbc;
+  background-color: #2541b2;
   color: whitesmoke;
   padding-left: 100px;
   padding-right: 100px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+
+  /* justify-content: space-around;
+  align-items: center; */
 }
 
-.fMenuTitle {
+/* .fMenuTitle {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
 }
-
+*/
 .fMenuItems {
   list-style: none;
+  text-decoration: none;
 }
+
+.footerList {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .divider {
+  padding-top: 50px;
+  background-color: whitesmoke;
+} */
 
 /* PAGES! */
 .about {

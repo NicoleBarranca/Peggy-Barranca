@@ -1,10 +1,10 @@
-import maggie from "../img/maggie.png";
+import Logo from "../img/Logo.png";
 
 function About() {
   return (
     <div className="about">
       <h1>Maggie Maggie</h1>
-      <img src={maggie} alt={"logo"} id="logo" style={{ width: 200 }} />
+      <img src={Logo} alt={"logo"} id="logo" style={{ width: 200 }} />
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
         voluptas maxime consequatur magnam, itaque eligendi architecto

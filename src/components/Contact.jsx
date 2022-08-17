@@ -1,5 +1,5 @@
 import React from "react";
-import FB from "../img/FB.png";
+
 import IG from "../img/IG.png";
 function Contact() {
   return (
@@ -15,7 +15,6 @@ function Contact() {
       <h4>email@email.com</h4>
       <h4>+123 123 123</h4>
       <img src={IG} alt="Instagram Logo" />
-      <img src={FB} alt="Facebook Logo" />
     </div>
   );
 }

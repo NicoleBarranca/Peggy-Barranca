@@ -1,7 +1,8 @@
 import { Outlet, Link } from "react-router-dom";
 // import Homepage from "./components/Homepage";
-import FB from "../src/img/FB.png";
+
 import IG from "../src/img/IG.png";
+import Logo from "../src/img/Logo.png";
 import "./App.css";
 
 function App() {
@@ -9,11 +10,10 @@ function App() {
     <div>
       {/* NAVBAR */}
       <nav>
-        <div className="menuBrand">
-          <Link to="/" id="brand">
-            Maggie Magee
-          </Link>
-        </div>
+        <Link to="/" className="brandGroup">
+          <img src={Logo} className="logo" alt="Logo" />{" "}
+          <h1 id="brand">Peggy Barranca</h1>
+        </Link>
 
         <div className="menuItems">
           <Link to="/about">About</Link>
@@ -27,27 +27,43 @@ function App() {
 
       {/* FOOTER */}
       <div className="footer">
-        <div>
-          <h2 className="fMenuTitle">Learn More</h2>
-          <ul className="fMenuItems">
-            <Link to="/about">About</Link>
-            <Link to="/gallery">Gallery</Link>
-            <Link to="/blog">Blog</Link>
+        <div className="footerList">
+          <ul className="menuItems">
+            <li>
+              <span>Learn More</span>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/gallery">Gallery</Link>
+            </li>
+            <li>
+              <Link to="/blog">Blog</Link>
+            </li>
           </ul>
         </div>
-        <div>
-          <h2 className="fMenuTitle">Contact</h2>
-          <ul className="fMenuItems">
-            <li>Maggie Magee</li>
-            <li>Email@email.com</li>
-            <li>732732732732</li>
-          </ul>
-        </div>
-        <div>
-          <h2 className="fMenuTitle">Follow Maggie</h2>
+
+        <div className="footerList">
           <ul>
-            <img src={IG} alt="Instagram Logo" />
-            <img src={FB} alt="Facebook Logo" />
+            <li>
+              <span>Contact</span>
+            </li>
+            <li>Peggy Barranca</li>
+            <li>Mbarr83@aol.com</li>
+            <li>(732) 687 0347</li>
+          </ul>
+        </div>
+
+        <div className="footerList">
+          <ul>
+            <li>
+              <span>Follow Peggy</span>
+            </li>
+            <li>
+              {" "}
+              <img src={IG} alt="Instagram Logo" />
+            </li>
           </ul>
         </div>
       </div>

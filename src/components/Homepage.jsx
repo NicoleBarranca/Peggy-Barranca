@@ -1,15 +1,12 @@
 import { Link } from "react-router-dom";
-import placeholder from "../img/placeholder.jpg";
+import Hero from "../img/Hero.jpeg";
 import maggie from "../img/maggie.png";
 
 function Homepage() {
   return (
     <div>
       {/* HERO */}
-      <div
-        style={{ backgroundImage: `url(${placeholder})` }}
-        className="heroImg"
-      >
+      <div style={{ backgroundImage: `url(${Hero})` }} className="heroImg">
         <div className="heroContent">
           <h1 className="heroTitle">Multimedia realism meats abstract</h1>
           <Link to="/gallery">

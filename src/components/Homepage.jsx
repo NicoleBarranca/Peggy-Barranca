@@ -10,7 +10,7 @@ function Homepage() {
         <div className="heroContent">
           <h1 className="heroTitle">Multimedia realism meats abstract</h1>
           <Link to="/gallery">
-            <button className="btn">Veiw Gallery</button>
+            <button className="btnOne">Veiw Gallery</button>
           </Link>
         </div>
       </div>

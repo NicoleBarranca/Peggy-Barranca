@@ -99,18 +99,22 @@ nav {
   height: 70vh;
   background-size: cover;
   background-position: center;
-  /* z-index: 0; */
 }
 
+.block {
+  background-color: RGBA(0, 0, 0, 0.45);
+  padding: 30px;
+  max-height: 150px;
+  border-radius: 10px;
+}
 .heroContent {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 25%;
-  /* z-index: 1; */
+  padding-top: 15%;
+  color: white;
 }
-
 /* .heroTitle {
   font-size: 50px;
   font-weight: 400;
@@ -137,7 +141,7 @@ nav {
 }
 
 .btnOne:hover {
-  background-color: #2541b2;
+  background-color: #21b6ac;
   color: whitesmoke;
   cursor: pointer;
 }

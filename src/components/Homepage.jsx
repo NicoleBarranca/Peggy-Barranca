@@ -10,10 +10,12 @@ function Homepage() {
       {/* HERO */}
       <div style={{ backgroundImage: `url(${Hero})` }} className="heroImg">
         <div className="heroContent">
-          <h1 className="heroTitle">Multimedia realism meats abstract</h1>
-          <Link to="/gallery">
-            <button className="btnOne">Veiw Gallery</button>
-          </Link>
+          <div className="block">
+            <h1 className="heroTitle">Multimedia realism meats abstract</h1>
+            <Link to="/gallery">
+              <button className="btnOne">Veiw Gallery</button>
+            </Link>
+          </div>
         </div>
       </div>
 

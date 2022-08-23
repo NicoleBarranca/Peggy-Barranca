@@ -63,6 +63,7 @@ nav {
 
 .menuItems a:hover {
   color: #7fc8f8;
+  cursor: pointer;
 }
 
 #logo {
@@ -105,10 +106,12 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding-top: 25%;
   /* z-index: 1; */
 }
 
-.heroTitle {
+/* .heroTitle {
   font-size: 50px;
   font-weight: 400;
   color: white;
@@ -117,13 +120,13 @@ nav {
   justify-content: center;
   padding-top: 10%;
   position: relative;
-}
+} */
 .btnOne {
   width: 150px;
   padding: 10px;
   font-size: 20px;
-  font-weight: 5600;
-  border-radius: 15%;
+  font-weight: 600;
+  border-radius: 20px;
 
   border: none;
   background-color: whitesmoke;
@@ -136,6 +139,7 @@ nav {
 .btnOne:hover {
   background-color: #2541b2;
   color: whitesmoke;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -143,21 +147,21 @@ nav {
   cursor: pointer;
 }
 
-/* QUOTE SECTION */
-.quote {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 50px;
+.btnTwo {
+  width: 150px;
+  padding: 10px;
+  font-size: 20px;
   font-weight: 600;
-  padding: 100px;
-  line-height: 1.3;
+  border-radius: 20px;
+  border: none;
   background-color: #f5c316;
-  color: #1d3461;
+  color: black;
 }
 
-.quote span {
-  font-weight: 100;
-  font-size: 20px;
+.btnTwo:hover {
+  background-color: #ffe45e;
+  color: darkgray;
+  cursor: pointer;
 }
 
 /* ABOUT PREV */
@@ -170,15 +174,11 @@ nav {
   background-color: whitesmoke;
 }
 
-.aboutPrev p {
+.aboutPrev div {
   font-size: 20px;
   font-weight: 200;
   line-height: 1.5;
-}
-
-.aboutPrev button {
-  background-color: white;
-  color: #1d3461;
+  padding-right: 50px;
 }
 
 /* BLOG PREV */
@@ -187,8 +187,31 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 100px;
-  color: whitesmoke;
+
   background-color: RGBA(95, 200, 248, 0.44);
+}
+
+.blogPrev div {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.5;
+  padding-left: 50px;
+}
+
+.galleryPrev {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  margin-bottom: 200px;
+  color: black;
+}
+
+.galleryPrev div {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.5;
+  padding-right: 50px;
 }
 /* FOOTER */
 
@@ -226,6 +249,7 @@ nav {
 
 .menuItem a:hover {
   color: #7fc8f8;
+  cursor: pointer;
 }
 
 .menuTitleItem {
@@ -247,6 +271,7 @@ nav {
 
 .iconStyle:hover {
   opacity: 1;
+  cursor: pointer;
 }
 
 /* PAGES! */

@@ -26,15 +26,15 @@ function Homepage() {
             limits. Maggie has taught art is both public and private settings.
           </p>
           <Link to="/about">
-            <button className="btn">Learn More</button>
+            <button className="btnTwo">Learn More</button>
           </Link>
         </div>
 
-        <img src={avatar} alt={"logo"} id="logo" style={{ width: 200 }} />
+        <img src={avatar} alt={"logo"} id="logo" style={{ width: 300 }} />
       </div>
       {/* BLOG PREV */}
       <div className="blogPrev">
-        <img src={Blog} alt={"logo"} id="logo" style={{ width: 200 }} />
+        <img src={Blog} alt={"logo"} id="logo" style={{ width: 300 }} />
         <div>
           {" "}
           <p>
@@ -42,12 +42,12 @@ function Homepage() {
             limits. Maggie has taught art is both public and private settings.
           </p>
           <Link to="/blog">
-            <button className="btn">Visit Blog</button>
+            <button className="btnTwo">Visit Blog</button>
           </Link>
         </div>
       </div>
       {/* GALLERY PREV */}
-      <div className="aboutPrev">
+      <div className="galleryPrev">
         <div>
           {" "}
           <p>
@@ -55,11 +55,11 @@ function Homepage() {
             limits. Maggie has taught art is both public and private settings.
           </p>
           <Link to="/gallery">
-            <button className="btn">Learn More</button>
+            <button className="btnTwo">Visit Gallery</button>
           </Link>
         </div>
 
-        <img src={Gallery} alt={"logo"} id="logo" style={{ width: 200 }} />
+        <img src={Gallery} alt={"logo"} id="logo" style={{ width: 300 }} />
       </div>
     </div>
   );

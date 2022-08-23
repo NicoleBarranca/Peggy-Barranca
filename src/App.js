@@ -1,7 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 // import Homepage from "./components/Homepage";
-
-import IG from "../src/img/IG.png";
+import { BsInstagram } from "react-icons/bs";
 import Logo from "../src/img/Logo.png";
 import "./App.css";
 
@@ -27,43 +26,45 @@ function App() {
 
       {/* FOOTER */}
       <div className="footer">
-        <div className="footerList">
+        <div>
           <ul className="menuItems">
-            <li>
-              <span>Learn More</span>
-            </li>
-            <li>
+            <li className="menuTitleItem">Learn More</li>
+            <li className="menuItem">
               <Link to="/about">About</Link>
             </li>
-            <li>
+            <li className="menuItem">
               <Link to="/gallery">Gallery</Link>
             </li>
-            <li>
+            <li className="menuItem">
               <Link to="/blog">Blog</Link>
             </li>
           </ul>
         </div>
 
-        <div className="footerList">
+        <div>
           <ul>
-            <li>
-              <span>Contact</span>
+            <li className="menuTitleItem">Contact</li>
+            <li className="menuItem">Peggy Barranca</li>
+            <li className="menuItem">
+              <a href="mailto:mbarr83@aol.com">mbarr83@aol.com</a>
             </li>
-            <li>Peggy Barranca</li>
-            <li>Mbarr83@aol.com</li>
-            <li>(732) 687 0347</li>
+
+            <li className="menuItem">
+              <a href="tel:+17326870347">(732) 687-0347</a>
+            </li>
           </ul>
         </div>
 
         <div className="footerList">
           <ul>
-            <li>
-              <span>Follow Peggy</span>
-            </li>
-            <li>
-              {" "}
-              <img src={IG} alt="Instagram Logo" />
-            </li>
+            <li className="menuTitleItem">Follow Peggy</li>
+
+            <a
+              href="https://www.instagram.com/maggie_magee/"
+              className="iconStyle"
+            >
+              <BsInstagram size={40} />
+            </a>
           </ul>
         </div>
       </div>

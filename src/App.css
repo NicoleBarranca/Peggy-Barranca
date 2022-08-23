@@ -280,7 +280,24 @@ nav {
 
 /* PAGES! */
 .about {
-  padding-top: 100px;
+  padding: 100px;
+}
+
+.about h1 {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.about p {
+  font-size: 20px;
+  font-weight: 200;
+  padding-right: 50px;
+  line-height: 1.5;
+  min-width: 400px;
+}
+
+.aboutContent {
+  display: flex;
 }
 
 .gallery {

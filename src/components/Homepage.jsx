@@ -2,8 +2,6 @@ import { Link } from "react-router-dom";
 import Hero from "../img/Hero.jpeg";
 import Blog from "../img/Blog.png";
 import Gallery from "../img/Gallery.png";
-
-import D from "../img/D.jpg";
 import avatar from "../img/avatar.png";
 
 function Homepage() {
@@ -56,7 +54,7 @@ function Homepage() {
             Maggie Magee is an Artist from New Jersey whose passion has no
             limits. Maggie has taught art is both public and private settings.
           </p>
-          <Link to="/about">
+          <Link to="/gallery">
             <button className="btn">Learn More</button>
           </Link>
         </div>

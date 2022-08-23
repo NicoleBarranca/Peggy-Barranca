@@ -162,8 +162,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 100px;
-  color: whitesmoke;
-  background-color: #829cbc;
+  color: black;
+  background-color: whitesmoke;
 }
 
 .aboutPrev p {
@@ -184,7 +184,7 @@ nav {
   align-items: center;
   padding: 100px;
   color: whitesmoke;
-  background-color: #1d3461;
+  background-color: RGBA(95, 200, 248, 0.44);
 }
 /* FOOTER */
 

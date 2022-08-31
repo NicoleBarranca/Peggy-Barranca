@@ -1,20 +1,34 @@
 import React from "react";
+import { BsSuitHeart, BsSuitHeartFill } from "react-icons/bs";
 
 import IG from "../img/IG.png";
 function Contact() {
   return (
     <div className="contact">
-      <h1>Please feel reach to reach out!</h1>
-      <form action="">
-        <input type="text" placeholder="message for maggie" name="" id="" />
-        <input type="text" placeholder="Full name" name="" id="" />
-        <input type="text" placeholder="email address" name="" id="" />
-        <input type="text" placeholder="phone number" name="" id="" />
-        <button>submit</button>
+      <h1>
+        Send me a message <BsSuitHeart size={25} />{" "}
+      </h1>
+      <form className="contactForm" action="">
+        <input type="text" placeholder="Full Name" name="" id="" />
+        <input type="email" placeholder="email address" name="" id="" />
+        <input type="phone" placeholder="phone number" name="" id="" />
+        <input type="text" placeholder="Your message..." name="" id="message" />
+        <button className="btnTwo">Submit</button>
       </form>
-      <h4>email@email.com</h4>
-      <h4>+123 123 123</h4>
-      <img src={IG} alt="Instagram Logo" />
+      <h1>
+        Contact me directly <BsSuitHeartFill size={25} />{" "}
+      </h1>
+
+      <p>
+        <a href="mailto:mbarr83@aol.com" className="contactFormLink">
+          mbarr83@aol.com
+        </a>
+      </p>
+      <p>
+        <a href="tel:+17326870347" className="contactFormLink">
+          (732) 687-0347
+        </a>
+      </p>
     </div>
   );
 }

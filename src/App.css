@@ -323,6 +323,51 @@ nav {
 
 .contact {
   padding-top: 100px;
+  max-width: 500px;
+  margin: auto;
+  padding-bottom: 20px;
+  margin-bottom: 200px;
+}
+
+.contact h1 {
+  font-size: 40px;
+  font-weight: 200;
+  color: RGBA(0, 0, 0, 0.76);
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm input {
+  height: 40px;
+  width: 500px;
+  max-width: 80%;
+  margin-bottom: 15px;
+}
+
+.contactForm input::placeholder {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: lightgray;
+}
+
+.contactFormLink {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.contactFormLink:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+
+#message {
+  height: 100px;
 }
 
 @media screen and (max-width: 480px) {

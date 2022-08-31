@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Hero from "../img/Hero.jpeg";
-import Blog from "../img/Blog.png";
+// import Blog from "../img/Blog.png";
 import Gallery from "../img/Gallery.png";
 import avatar from "../img/avatar.png";
 

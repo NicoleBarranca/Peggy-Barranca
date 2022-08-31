@@ -34,7 +34,7 @@ body {
   color: #7fc8f8;
 }
 nav {
-  background-color: #2541b2;
+  background-color: RGBA(4, 150, 255, 0.79);
   color: white;
   height: 80px;
   padding: 0 20px 0;
@@ -102,11 +102,13 @@ nav {
 }
 
 .block {
-  background-color: RGBA(0, 0, 0, 0.45);
+  background-color: RGBA(37, 65, 178, 0.75);
   padding: 30px;
-  max-height: 150px;
+  max-height: 350px;
+  max-width: 70%;
   border-radius: 10px;
 }
+
 .heroContent {
   display: flex;
   flex-direction: column;
@@ -115,16 +117,17 @@ nav {
   padding-top: 15%;
   color: white;
 }
-/* .heroTitle {
+.heroTitle {
   font-size: 50px;
-  font-weight: 400;
-  color: white;
+  font-weight: 600;
+  letter-spacing: 3px;
+  /* color: white;
   z-index: 1;
   display: flex;
   justify-content: center;
   padding-top: 10%;
-  position: relative;
-} */
+  position: relative; */
+}
 .btnOne {
   width: 150px;
   padding: 10px;
@@ -141,7 +144,7 @@ nav {
 }
 
 .btnOne:hover {
-  background-color: #21b6ac;
+  background-color: #0496ff;
   color: whitesmoke;
   cursor: pointer;
 }
@@ -185,8 +188,14 @@ nav {
   padding-right: 50px;
 }
 
+.divider {
+  display: flex;
+  padding: 25px;
+  background-color: RGBA(95, 200, 248, 0.44);
+}
 /* BLOG PREV */
-.blogPrev {
+/* FOR LATER USE */
+/* .blogPrev {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -200,27 +209,27 @@ nav {
   font-weight: 200;
   line-height: 1.5;
   padding-left: 50px;
-}
+} */
 
+/* GALLERY PREV */
 .galleryPrev {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 100px;
-  margin-bottom: 200px;
-  color: black;
+  padding-bottom: 325px;
 }
 
 .galleryPrev div {
   font-size: 20px;
   font-weight: 200;
   line-height: 1.5;
-  padding-right: 50px;
+  padding-left: 50px;
 }
 /* FOOTER */
 
 .footer {
-  background-color: #2541b2;
+  background-color: #0496ff;
   color: whitesmoke;
 
   display: flex;
@@ -302,6 +311,7 @@ nav {
 
 .gallery {
   padding-top: 100px;
+  padding-bottom: 200px;
 }
 
 .blog {

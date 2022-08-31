@@ -11,7 +11,9 @@ function Homepage() {
       <div style={{ backgroundImage: `url(${Hero})` }} className="heroImg">
         <div className="heroContent">
           <div className="block">
-            <h1 className="heroTitle">Multimedia realism meats abstract</h1>
+            <h1 className="heroTitle">
+              Multimedia combined with wild imagination...
+            </h1>
             <Link to="/gallery">
               <button className="btnOne">Veiw Gallery</button>
             </Link>
@@ -35,7 +37,7 @@ function Homepage() {
         <img src={avatar} alt={"logo"} id="logo" style={{ width: 300 }} />
       </div>
       {/* BLOG PREV */}
-      <div className="blogPrev">
+      {/* <div className="blogPrev">
         <img src={Blog} alt={"logo"} id="logo" style={{ width: 300 }} />
         <div>
           {" "}
@@ -47,9 +49,11 @@ function Homepage() {
             <button className="btnTwo">Visit Blog</button>
           </Link>
         </div>
-      </div>
+      </div> */}
+      <div className="divider"></div>
       {/* GALLERY PREV */}
       <div className="galleryPrev">
+        <img src={Gallery} alt={"logo"} id="logo" style={{ width: 300 }} />
         <div>
           {" "}
           <p>
@@ -60,8 +64,6 @@ function Homepage() {
             <button className="btnTwo">Visit Gallery</button>
           </Link>
         </div>
-
-        <img src={Gallery} alt={"logo"} id="logo" style={{ width: 300 }} />
       </div>
     </div>
   );

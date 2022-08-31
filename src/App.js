@@ -17,7 +17,7 @@ function App() {
         <div className="menuItems">
           <Link to="/about">About</Link>
           <Link to="/gallery">Gallery</Link>
-          <Link to="/blog">Blog</Link>
+          {/* <Link to="/blog">Blog</Link> */}
           <Link to="/contact">Contact</Link>
           <Link to="/">Home</Link>
         </div>
@@ -36,7 +36,7 @@ function App() {
               <Link to="/gallery">Gallery</Link>
             </li>
             <li className="menuItem">
-              <Link to="/blog">Blog</Link>
+              {/* <Link to="/blog">Blog</Link> */} <Link to="/">Home</Link>
             </li>
           </ul>
         </div>

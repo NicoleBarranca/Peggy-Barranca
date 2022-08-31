@@ -183,7 +183,7 @@ nav {
 
 .aboutPrev div {
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 1.5;
   padding-right: 50px;
 }
@@ -217,12 +217,14 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 100px;
-  padding-bottom: 325px;
+  color: black;
+  background-color: whitesmoke;
+  /* padding-bottom: 325px; */
 }
 
 .galleryPrev div {
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 1.5;
   padding-left: 50px;
 }
@@ -293,8 +295,9 @@ nav {
 }
 
 .about h1 {
-  font-size: 35px;
-  font-weight: 400;
+  font-size: 40px;
+  font-weight: 200;
+  color: RGBA(0, 0, 0, 0.76);
 }
 
 .about p {
@@ -314,9 +317,9 @@ nav {
   padding-bottom: 200px;
 }
 
-.blog {
+/* .blog {
   padding-top: 100px;
-}
+} */
 
 .contact {
   padding-top: 100px;

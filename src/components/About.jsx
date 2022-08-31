@@ -27,6 +27,26 @@ function About() {
             hic similique aut nihil temporibus, repudiandae culpa dignissimos
             doloremque, enim incidunt.
           </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
+            voluptas maxime consequatur magnam, itaque eligendi architecto
+            aspernatur quibusdam hic similique aut nihil temporibus, repudiandae
+            culpa dignissimos doloremque, enim incidunt. Lorem ipsum dolor, sit
+            amet consectetur adipisicing elit. Aperiam voluptas maxime
+            consequatur magnam, itaque eligendi architecto aspernatur quibusdam
+            hic similique aut nihil temporibus, repudiandae culpa dignissimos
+            doloremque, enim incidunt.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
+            voluptas maxime consequatur magnam, itaque eligendi architecto
+            aspernatur quibusdam hic similique aut nihil temporibus, repudiandae
+            culpa dignissimos doloremque, enim incidunt. Lorem ipsum dolor, sit
+            amet consectetur adipisicing elit. Aperiam voluptas maxime
+            consequatur magnam, itaque eligendi architecto aspernatur quibusdam
+            hic similique aut nihil temporibus, repudiandae culpa dignissimos
+            doloremque, enim incidunt.
+          </p>
         </div>
         <img
           src={avatar}

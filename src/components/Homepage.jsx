@@ -24,10 +24,9 @@ function Homepage() {
       {/* ABOUT PREV */}
       <div className="aboutPrev">
         <div>
-          {" "}
           <p>
-            Maggie Magee is an Artist from New Jersey whose passion has no
-            limits. Maggie has taught art is both public and private settings.
+            Peggy is an Artist from New Jersey whose passion has no limits.
+            Being a teacher of art in both public and private settings...
           </p>
           <Link to="/about">
             <button className="btnTwo">Learn More</button>
@@ -55,11 +54,7 @@ function Homepage() {
       <div className="galleryPrev">
         <img src={Gallery} alt={"logo"} id="logo" style={{ width: 300 }} />
         <div>
-          {" "}
-          <p>
-            Maggie Magee is an Artist from New Jersey whose passion has no
-            limits. Maggie has taught art is both public and private settings.
-          </p>
+          <p>The varying media used my Peggy is vast and ever changing...</p>
           <Link to="/gallery">
             <button className="btnTwo">Visit Gallery</button>
           </Link>

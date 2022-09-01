@@ -33,3 +33,23 @@
 .galleryWrap .single img:hover {
   transform: scale(1.02);
 }
+
+.sliderWrap {
+}
+
+.sliderWrap .btnClose,
+.sliderWrap .btnPrev,
+.sliderWrap .btnNext {
+}
+
+.sliderWrap .btnClose {
+}
+
+.sliderWrap .btnPrev {
+}
+
+.sliderWrap .btnNext {
+}
+
+.sliderWrap .fullScreenImage {
+}

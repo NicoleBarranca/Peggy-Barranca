@@ -1,4 +1,5 @@
-import React from "react";
+import GalleryContent from "./GalleryContent";
+import "./gallery.css";
 import A from "../img/A.jpeg";
 import B from "../img/B.jpg";
 import C from "../img/C.jpg";
@@ -20,138 +21,34 @@ import R from "../img/R.jpg";
 import S from "../img/S.jpg";
 import T from "../img/T.jpg";
 import U from "../img/U.jpg";
+
 function Gallery() {
+  const galleryImages = [
+    { photo: A, text: "this is the name" },
+    { photo: B, text: "this is the name" },
+    { photo: C, text: "this is the name" },
+    { photo: D, text: "this is the name" },
+    { photo: E, text: "this is the name" },
+    { photo: F, text: "this is the name" },
+    { photo: G, text: "this is the name" },
+    { photo: H, text: "this is the name" },
+    { photo: I, text: "this is the name" },
+    { photo: J, text: "this is the name" },
+    { photo: K, text: "this is the name" },
+    { photo: L, text: "this is the name" },
+    { photo: M, text: "this is the name" },
+    { photo: N, text: "this is the name" },
+    { photo: O, text: "this is the name" },
+    { photo: P, text: "this is the name" },
+    { photo: Q, text: "this is the name" },
+    { photo: R, text: "this is the name" },
+    { photo: S, text: "this is the name" },
+    { photo: T, text: "this is the name" },
+    { photo: U, text: "this is the name" },
+  ];
   return (
-    <div className="gallery">
-      <h1>The Gallery</h1>
-      <div>
-        <img
-          src={A}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={B}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={C}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={D}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={E}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={F}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={G}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={H}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={I}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={J}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={K}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={L}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={M}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={N}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={O}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={P}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={Q}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={R}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={S}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={T}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-        <img
-          src={U}
-          alt={"logo"}
-          id="logo"
-          style={{ width: 200, height: 200 }}
-        />
-      </div>
+    <div>
+      <GalleryContent galleryImages={galleryImages} />
     </div>
   );
 }

@@ -7,13 +7,17 @@ const GalleryContent = ({ galleryImages }) => {
 
   return (
     <div className="gallery">
-      <p>hi</p>
+      <h1>The Gallery</h1>
       <div className="galleryWrap">
         {galleryImages &&
           galleryImages.map((slide, index) => {
             return (
               <div className="single" key={index}>
-                <img src={slide.photo} alt="" />
+                <img
+                  src={slide.photo}
+                  alt=""
+                  // style={{ width: 500, height: 500 }}
+                />
               </div>
             );
           })}

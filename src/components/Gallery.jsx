@@ -32,7 +32,7 @@ function Gallery() {
     },
     {
       photo: B,
-      name: "this is the name",
+      name: "this is the name of B",
       size: "8 X 10",
       desc: "this is the description",
     },
@@ -44,7 +44,7 @@ function Gallery() {
     },
     {
       photo: D,
-      name: "this is the name",
+      name: "this is the name of D",
       size: "8 X 10",
       desc: "this is the description",
     },

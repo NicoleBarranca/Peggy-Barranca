@@ -21,31 +21,61 @@ const GalleryContent = ({ galleryImages }) => {
     setOpenModal(false);
   };
   // Previous Image
-  const prevSlide = () => {};
+  const prevSlide = () => {
+    slideNumber === 0
+      ? setSlideNumber(galleryImages.length - 1)
+      : setSlideNumber(slideNumber - 1);
+  };
 
   // Next Image
-  const nextSlide = () => {};
+  const nextSlide = () => {
+    slideNumber + 1 === galleryImages.length
+      ? setSlideNumber(0)
+      : setSlideNumber(slideNumber + 1);
+  };
 
   return (
     <div className="gallery">
       {/* If modal is opened, show this div */}
       {openModal && (
         <div className="sliderWrap">
-          <AiFillCloseCircle className="btnClose" onClick={handleCloseModal} />
-          <BsFillArrowLeftCircleFill className="btnPrev" onClick={prevSlide} />
-          <BsFillArrowRightCircleFill className="btnNext" onClick={nextSlide} />
+          <AiFillCloseCircle
+            className="btnClose"
+            onClick={handleCloseModal}
+            // style={{ color: "RGBA(0, 0, 0, 0.76)" }}
+            // size={30}
+          />
+          <BsFillArrowLeftCircleFill
+            className="btnPrev"
+            onClick={prevSlide}
+            // style={{ color: "RGBA(0, 0, 0, 0.76)" }}
+            // size={30}
+          />
+          <BsFillArrowRightCircleFill
+            className="btnNext"
+            onClick={nextSlide}
+            // style={{ color: "RGBA(0, 0, 0, 0.76)" }}
+            // size={30}
+          />
+          <h2>
+            {slideNumber} of {galleryImages.length}
+          </h2>
           <div className="fullScreenImage">
             <img
               src={galleryImages[slideNumber].photo}
               alt=""
               style={{ height: 500 }}
             />
-            <h2>{galleryImages[slideNumber].name}</h2>
-            <p> Size:{galleryImages[slideNumber].size}</p>
-            <p> Size:{galleryImages[slideNumber].desc}</p>
+            <div className="imageDetails">
+              {" "}
+              <h2>{galleryImages[slideNumber].name}</h2>
+              <p> Size: {galleryImages[slideNumber].size}</p>
+              <p> Mediums Used: {galleryImages[slideNumber].desc}</p>
+            </div>
           </div>
         </div>
       )}
+
       {!openModal && (
         <>
           {" "}

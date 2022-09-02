@@ -26,9 +26,9 @@ function Gallery() {
   const galleryImages = [
     {
       photo: A,
-      name: "this is the name",
-      size: "8 X 10",
-      desc: "this is the description",
+      name: "Peaceful Meadow",
+      size: "8 x 10",
+      desc: "This pice was painted with acrylic, on a wooden background. Paper and string are intertwined in the grass.",
     },
     {
       photo: B,

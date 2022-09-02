@@ -1,6 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 // import Homepage from "./components/Homepage";
 import { BsInstagram } from "react-icons/bs";
+
 import Logo from "../src/img/Logo.png";
 import "./App.css";
 
@@ -23,7 +24,6 @@ function App() {
         </div>
       </nav>
       <Outlet />
-
       {/* FOOTER */}
       <div className="footer">
         <div>

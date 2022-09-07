@@ -57,14 +57,12 @@ const GalleryContent = ({ galleryImages }) => {
             // style={{ color: "RGBA(0, 0, 0, 0.76)" }}
             // size={30}
           />
-          <h2>
-            {slideNumber} of {galleryImages.length}
-          </h2>
+
           <div className="fullScreenImage">
             <img
               src={galleryImages[slideNumber].photo}
               alt=""
-              style={{ height: 500 }}
+              style={{ height: 600 }}
             />
             <div className="imageDetails">
               {" "}

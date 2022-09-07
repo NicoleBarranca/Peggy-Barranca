@@ -161,13 +161,14 @@ nav {
   font-weight: 600;
   border-radius: 20px;
   border: none;
-  background-color: #f5c316;
+  background-color: #ffe45e;
   color: black;
 }
 
 .btnTwo:hover {
-  background-color: #ffe45e;
-  color: darkgray;
+  background-color: #f5c316;
+  color: whitesmoke;
+
   cursor: pointer;
 }
 
